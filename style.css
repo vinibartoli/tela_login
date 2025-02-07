@@ -18,6 +18,7 @@ background: linear-gradient(145deg, rgba(153,239,255,0.9641106442577031) 9%, rgb
     width: 50%;
     height: 50%;
     padding: 10px;
+    box-shadow: 0 0 10px #000;
 }
 
 .container-logo {
@@ -39,4 +40,20 @@ background: linear-gradient(145deg, rgba(153,239,255,0.9641106442577031) 9%, rgb
 .container-password {
     display: flex;
     flex-direction: column;
+}
+
+input {
+
+}
+
+.container-remember {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+
 }
